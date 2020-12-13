@@ -4,6 +4,7 @@
 TIMEFORMAT = '%Y-%m-%d %H:%M:%S %Z'
 
 import threading
+import time
 
 
 class Scheduler(threading.Thread):
